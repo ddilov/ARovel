@@ -3,8 +3,6 @@
  <o:File HRef="stylesheet.css"/>
  <o:File HRef="tabstrip.html"/>
  <o:File HRef="sheet001.html"/>
- <o:File HRef="image001.png"/>
- <o:File HRef="image002.gif"/>
  <o:File HRef="sheet002.html"/>
  <o:File HRef="sheet003.html"/>
  <o:File HRef="sheet004.html"/>
@@ -15,6 +13,5 @@
  <o:File HRef="sheet009.html"/>
  <o:File HRef="sheet010.html"/>
  <o:File HRef="sheet011.html"/>
- <o:File HRef="sheet012.html"/>
  <o:File HRef="filelist.xml"/>
 </xml>

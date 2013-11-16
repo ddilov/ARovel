@@ -21,27 +21,25 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link id="shLink" href="index_files/sheet009.html">
 <link id="shLink" href="index_files/sheet010.html">
 <link id="shLink" href="index_files/sheet011.html">
-<link id="shLink" href="index_files/sheet012.html">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=12;
+ var c_lTabs=11;
 
  var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "Дневен режим";
- c_rgszSh[1] = "Предучилищен клас";
- c_rgszSh[2] = "1 клас";
- c_rgszSh[3] = "2 клас";
- c_rgszSh[4] = "3 клас";
- c_rgszSh[5] = "4 клас";
- c_rgszSh[6] = "5 клас";
- c_rgszSh[7] = "6 клас";
- c_rgszSh[8] = "7 клас";
- c_rgszSh[9] = "8 клас";
- c_rgszSh[10] = "11 клас";
- c_rgszSh[11] = "12 клас";
+ c_rgszSh[0] = "Предучилищен клас";
+ c_rgszSh[1] = "1 клас";
+ c_rgszSh[2] = "2 клас";
+ c_rgszSh[3] = "3 клас";
+ c_rgszSh[4] = "4 клас";
+ c_rgszSh[5] = "5 клас";
+ c_rgszSh[6] = "6 клас";
+ c_rgszSh[7] = "7 клас";
+ c_rgszSh[8] = "8 клас";
+ c_rgszSh[9] = "11 клас";
+ c_rgszSh[10] = "12 клас";
 
 
 
@@ -71,7 +69,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[6].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -319,52 +317,48 @@ function fnSetActiveSheet(iSh)
  <x:ExcelWorkbook>
   <x:ExcelWorksheets>
    <x:ExcelWorksheet>
-    <x:Name>Дневен режим</x:Name>
+    <x:Name>Предучилищен клас</x:Name>
     <x:WorksheetSource HRef="index_files/sheet001.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Предучилищен клас</x:Name>
+    <x:Name>1 клас</x:Name>
     <x:WorksheetSource HRef="index_files/sheet002.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>1 клас</x:Name>
+    <x:Name>2 клас</x:Name>
     <x:WorksheetSource HRef="index_files/sheet003.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>2 клас</x:Name>
+    <x:Name>3 клас</x:Name>
     <x:WorksheetSource HRef="index_files/sheet004.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>3 клас</x:Name>
+    <x:Name>4 клас</x:Name>
     <x:WorksheetSource HRef="index_files/sheet005.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>4 клас</x:Name>
+    <x:Name>5 клас</x:Name>
     <x:WorksheetSource HRef="index_files/sheet006.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>5 клас</x:Name>
+    <x:Name>6 клас</x:Name>
     <x:WorksheetSource HRef="index_files/sheet007.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>6 клас</x:Name>
+    <x:Name>7 клас</x:Name>
     <x:WorksheetSource HRef="index_files/sheet008.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>7 клас</x:Name>
+    <x:Name>8 клас</x:Name>
     <x:WorksheetSource HRef="index_files/sheet009.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>8 клас</x:Name>
+    <x:Name>11 клас</x:Name>
     <x:WorksheetSource HRef="index_files/sheet010.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>11 клас</x:Name>
-    <x:WorksheetSource HRef="index_files/sheet011.html"/>
-   </x:ExcelWorksheet>
-   <x:ExcelWorksheet>
     <x:Name>12 клас</x:Name>
-    <x:WorksheetSource HRef="index_files/sheet012.html"/>
+    <x:WorksheetSource HRef="index_files/sheet011.html"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="index_files/stylesheet.css"/>
@@ -372,6 +366,7 @@ function fnSetActiveSheet(iSh)
   <x:WindowWidth>15135</x:WindowWidth>
   <x:WindowTopX>120</x:WindowTopX>
   <x:WindowTopY>120</x:WindowTopY>
+  <x:ActiveSheet>6</x:ActiveSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -379,7 +374,7 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="index_files/sheet001.html" name="frSheet">
+ <frame src="index_files/sheet007.html" name="frSheet">
  <frame src="index_files/tabstrip.html" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
